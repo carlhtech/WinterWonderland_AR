@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: clear_ice_cracked_D_sat_blue
+  m_Shader: {fileID: 4800000, guid: a9cde6543f2604b4cbd3023847cb9c0b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IceNoise:
+        m_Texture: {fileID: 2800000, guid: 70f4353b0254d8045983a3c97358a7bf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IceNormal:
+        m_Texture: {fileID: 2800000, guid: 6025a235afe480b48ae004609e3335c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IceTexture:
+        m_Texture: {fileID: 2800000, guid: c51f0a73ec4cff34c9a49c46774ec338, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4641297f8be0e254f994580c254a565d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BackGroundIceBlend: 0.788
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FogColorDistance: 3326
+    - _FogColorHardness: 0.15
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _IceAmountOpacity: 1
+    - _IceDepth: 0.301
+    - _IceNormalScale: 0.87
+    - _MetalicPower: 0.3
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoisePower: 1.49
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RefractionPower: 0.253
+    - _ShadowPower: 0.29
+    - _Smoothness: 0.56
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpecularPower: 0.277
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _WaterDepth: 1.04
+    - _WaterFalloff: 1.26
+    - _ZWrite: 1
+    - __dirty: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FogColorMultiply: {r: 1, g: 1, b: 1, a: 1}
+    - _IceColorBackground: {r: 1, g: 1, b: 1, a: 1}
+    - _IceColorTop: {r: 1, g: 1, b: 1, a: 1}
+    - _RefractionColor: {r: 0.1029411, g: 0.1121703, b: 0.117647, a: 1}
+    - _ShalowColor: {r: 1, g: 1, b: 1, a: 0}
